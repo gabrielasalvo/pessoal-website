@@ -55,6 +55,7 @@ li {
 
 
     .social a[href*="github.com"]{
+        filter: invert(75%); 
         background-image: url(img/github.png);
     }
 
