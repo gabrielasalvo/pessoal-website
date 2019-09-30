@@ -1,0 +1,67 @@
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+/*Não consigo retirar sem quebrar o código*/
+#cabecalho{
+    font-size: 30px;
+}
+li {
+    margin: 10px;
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    } 
+
+    a{
+        text-decoration: none;
+        
+    }
+  /*REDES SOCIAIS*/
+    .facebook{
+        height: 55px;
+        width: 85px;
+    /*background como fundo*/
+    background-image: url(img/facebook.png)
+    }
+
+
+    .social a{
+        /*tamanho da imagem que ira substituir os links de rede social*/
+        height: 32px;
+        width: 32px;
+
+        /*Image replacement*/
+        display: block;
+        text-indent: -9999px;
+        
+    }
+
+    .social a[href*="facebook.com"]{
+
+        background-repeat: no-repeat;
+        background-image: url(img/facebook.png);
+
+    }
+
+    .social a[href*="linkedin.com"]{
+        background-image: url(img/linkedin.png);
+    }
+
+
+    .social a[href*="github.com"]{
+        background-image: url(img/github.png);
+    }
+
+    .nome{
+        position: absolute;
+        bottom: 200px;
+        right: 100px;
+       font-family: 'Montserrat thin', sans-serif, 'Courier New', 'Courier 10 pitch', monospace;
+       font-size: 40px;
+    }
