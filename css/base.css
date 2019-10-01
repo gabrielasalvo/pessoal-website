@@ -1,0 +1,44 @@
+body{
+    width: 95%;
+    max-width: 1110px;
+    
+    background-image: url(../img/ceu.jpg);
+}
+
+
+.nome {
+    
+    position:absolute;
+  
+   /* display: flex;
+    justify-content: center;
+    margin-left: 30%;*/
+    font-size: 3em;
+    color: whitesmoke;
+    font-size: ;
+    font-family: 'Montserrat thin' , sans-serif;
+    /*position: absolute;*/
+    
+}
+
+
+    
+@media only screen and (max-width: 959px) {
+    h1{
+        font-size: 30px;
+    }
+
+}
+
+
+@media only screen and  ( max-width: 959px) {
+    nav{
+        position: absolute;
+        bottom: 450px;
+        left: 35px;
+    }
+}
+
+
+
+}
