@@ -6,6 +6,13 @@ body{
 }
 
 
+/*HOVER*/
+
+
+
+
+
+
 .nome {
     
     position:absolute;
@@ -20,8 +27,23 @@ body{
     /*position: absolute;*/
     
 }
+footer a {
+    
+    color: white;
+    font-size: 1.6rem;
+    margin: 1.2rem 0.5rem 0 0;
+  }
+
+  footer {
+    position:absolute;
+    left: 45%;
+    bottom:0;
+    width:100%;
+   
+}
 
 
+/*****MEDIA QUERIES*****/
     
 @media only screen and (max-width: 959px) {
     h1{
@@ -42,3 +64,22 @@ body{
 
 
 }
+
+/*html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  .content {
+    min-height: 100%;
+  }
+
+  .content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+
+  .footer {
+    height: 50px;
+    margin-top: -50px;
+  }
